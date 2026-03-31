@@ -1,0 +1,360 @@
+ @font-face {
+    font-family: 'Poppins';
+    src: url(../Fonts/Poppins-Regular.ttf);
+ }
+
+ .textbox {
+    width: 48vh;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #F7F5F5;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 25%);
+    border-style: none;
+    margin: 10px 0 10px 0;
+    padding-left: 15%;
+    font-size: 0.9em;
+    display: flex;
+ }
+
+ .information {
+    margin: 0;
+    font-size: 0.9rem;
+    font-family: 'Poppins';
+    font: lighter;
+    color: #6D2932;
+ }
+
+  .information-2 {
+   justify-content: center;
+    margin:  0;
+    font-size: 0.9rem;
+    font-family: 'Poppins';
+    font-weight: lighter;
+    color: #6D2932;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: font-weight 0.2s ease;
+ }
+
+ .information-2:hover {
+    font-weight: bold;
+ }
+
+ .logo-container {
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .login-box{
+   height: 10%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   column-gap: 5px;
+ }
+
+ .signup-box{
+   height: 10%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   column-gap: 5px;
+ }
+
+ .login-signup {
+    width: 220px;
+    height: 48px;
+    border-radius: 22px;
+    border-style: none;
+    background-color: #6D2932;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    border-style: solid;
+    border-color: white;
+ }
+
+ .button-1{
+   width: 100%;
+   height: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .button-2{
+   width: 100%;
+   height: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .judul {
+    font-size: 32px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #6D2932;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 25%);
+    margin: 0;
+ }
+
+ .sub-judul {
+    font-size: 1.8rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 25%);
+    margin-bottom: 65px;
+ }
+
+ .Icon-Login {
+    width: 30px;
+    height: 30px;
+    color: black;
+    z-index: 2;
+    margin-right: -40px;
+    opacity: 45%;
+ }
+
+ .icon-box{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+ }
+
+ .email,
+ .username,
+ .password {
+    color: #aeaeae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -35px;
+    z-index: 2;
+ }
+
+ .eye {
+    border-style: none;
+    margin-left: -50px;
+    background-color: #F7F5F5;
+ }
+
+ .logo{
+   width: 160px;
+   display: flex;
+   margin-top: -20px;
+ }
+
+ .show {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    opacity: 45%;
+ }
+
+ .Signup,
+ .Login {
+    background: #aeaeae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+ }
+
+ .signup-page,
+ .login-page {
+    width: 50%;
+    height: 65vh;
+    background: #6D2932;
+    border-radius: 32px;
+ }
+
+ .base-signup {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #6D2932;
+    border-radius: 24px;
+    justify-content: end;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 25%);
+    background-image: url(Assets/background-Base.png);
+    background-size: cover;
+ }
+
+ .base-login {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #6D2932;
+    border-radius: 24px;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 25%);
+    background-image: url(Assets/Backround-Base.png);
+    background-size: cover;
+    flex-direction: row-reverse;
+ }
+
+ .overlay-login {
+    width: 60%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 24px 0 0 24px;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+ }
+ 
+ .overlay-signup {
+    width: 60%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 0 24px 24px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .inputContainer-signup,
+ .inputContainer-login {
+    display: flex;
+    align-items: center;
+ }
+
+ .inputContainer-signup2,
+ .inputContainer-login2 {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+ }
+
+ .btnSignup,
+ .btnLogin {
+    width: 180px;
+    height: 50px;
+    border-radius: 32px;
+    border-style: none;
+    background-color: #6D2932;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: bold;
+ }
+
+ .container-base-signup,
+ .container-base-login {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 27px;
+ }
+
+ .default-login{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+ }
+
+ .default-signup{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+ }
+
+ .button-signup-2{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+ }
+ 
+ .button-login-2{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+ }
+
+ .close{
+    font-size: 30px;
+    margin-top: 20px;
+ }
+
+ .close-1{
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: white;
+ }
+
+ .close-2{
+    width: 93%;
+    height: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    color: #6D2932;
+ }
+
+ .gmail {
+    width: 200px;
+    height: 40px;
+    border: 2px solid #B9B9B9;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 10px;
+ }
+
+ .gm {
+    width: 100%;
+    margin-right: -2px;
+    color: rgba(0, 0, 0, 25%);
+    font-size: 1.3rem;
+ }
+
+ .gml {
+   opacity: 25%;
+   font-size: 0.8rem;
+   font-family: 'poppins';
+   font-weight: bold;
+ }
+
+ .signup-container,
+ .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    column-gap: 20px;
+    height: 70px;
+ }
+
+ .information-3{
+   font-family: 'poppins';
+   font-size: 0.9rem;
+   color: #6D2932;
+ }
